@@ -1,20 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300..700&family=Share+Tech&display=swap');
+
 * {
-  display: none !important;
-}
-
-html,
-body,
-*:has(article),
-article,
-article * {
-  display: revert !important;
-}
-
-[role='navigation'] {
-  display: none !important;
-}
-
-article {
-  margin: auto;
-  max-width: 700px;
+  font-family: "Noto Emoji", sans-serif;
+  font-optical-sizing: auto;
 }
