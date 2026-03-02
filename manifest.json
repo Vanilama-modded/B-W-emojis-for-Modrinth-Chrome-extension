@@ -20,5 +20,16 @@
       "128": "images/icon-128.png"
     }
   },
-  "permissions": ["activeTab", "scripting"]
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": [
+    "https://modrinth.com/*",
+    "https://www.curseforge.com/*",
+    "https://curseforge.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://modrinth.com/*", "https://www.curseforge.com/*", "https://curseforge.com/*"],
+      "css": ["black-white-emojis.css"]
+    }
+  ]
 }
